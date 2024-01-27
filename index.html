@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Etiqueta meta para prevenir que utilicen tu sitio web en un iframe  -->
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page de HTML5</title>
+</head>
+
+<body>
+  <header>
+    <!-- Header: Cabecera -->
+    <nav>
+      <!-- Navegación: Menu de navegación -->
+      <div>
+        <a href="">Lago</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Me</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  <!-- hr : Divide secciones mediante una línea  -->
+  <br>
+  <!-- br: Otorga un salto de línea  -->
+  <main>
+    <!-- Importante: Main contiene todo el contenido importante de la página y solo se puede colocar un elemento por página y no puede ser descendiente de otro elemento -->
+    <h1>Mi primer página web</h1>
+    <hr>
+    <section>
+      <!-- Sección: Contiene elementos que se repiten en muchas páginas -->
+      <h2>Primer Contenido</h2>
+      <article>
+        <h3>Soy un tema del primer contenido</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis odio amet deleniti assumenda ullam,
+          nisi necessitatibus corrupti quas mollitia. Dolorum voluptatibus, autem quis corrupti minus voluptas
+          voluptates facere numquam.</p>
+      </article>
+      <article>
+        <h3>Soy un tema del primer contenido</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis odio amet deleniti assumenda ullam,
+          nisi necessitatibus corrupti quas mollitia. Dolorum voluptatibus, autem quis corrupti minus voluptas
+          voluptates facere numquam.</p>
+      </article>
+      <article>
+        <h3>Soy un tema del primer contenido</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis odio amet deleniti assumenda ullam,
+          nisi necessitatibus corrupti quas mollitia. Dolorum voluptatibus, autem quis corrupti minus voluptas
+          voluptates facere numquam.</p>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Cabeceras o titulares</h2>
+      <article>
+        <h3>Etiquetas para mis cabeceras</h3>
+        <!-- h${H$ - heading $}*6 --><!--EMMET-->
+        <h1>H1 - heading 1</h1>
+        <!-- Importante: H1 es el encabezado principal y solo puede haber uno en la página -->
+        <h2>H2 - heading 2</h2>
+        <!-- h2 suele usarse para subtítulos, normalmente después de un h1. O también para las cabeceras de los temas que se verán en la página.  -->
+        <h3>H3 - heading 3</h3>
+        <!-- h3 suele utilizarse para cabecera de los subtemas dentro de cada sección  -->
+        <h4>H4 - heading 4</h4>
+        <h5>H5 - heading 5</h5>
+        <h6>H6 - heading 6</h6>
+        <!-- Importante: Las etiquetas h4, h5 y h6, no se recomienda utilizarlas porque afectan el SEO del navegador, ya que se interpretan como niveles profundos del documento  -->
+      </article>
+    </section>
+
+    <hr>
+    <br>
+
+    <section>
+      <h2>Párrafos</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi provident vitae non perspiciatis? Itaque at
+        voluptatibus inventore dolor deserunt dolorum illo quas? Laboriosam sint tempore sed officiis, consectetur
+        consequuntur eius.</p>
+      <article>
+        <h3>Cursiva, negrita, subrayado</h3>
+        <p>Lorem, ipsum <u>subrayado</u> dolor sit amet consectetur adipisicing elit. Nam numquam a labore? Animi
+          sapiente, amet atque consequatur itaque <i>cursiva</i> nobis soluta sunt <b>negrita</b> explicabo alias, qui
+          facere adipisci! Fugit corrupti itaque id.</p>
+        <!-- https://validator.w3.org/nu/#file -->
+      </article>
+      <article>
+        <h3>Énfasis e importancia</h3>
+        <p>
+          Lorem ipsum, <em>enfasis</em> dolor sit amet consectetur adipisicing elit. Quos sapiente quidem, aliquid qui
+          itaque tempora <strong>importancia</strong> id cum perspiciatis laboriosam labore maxime praesentium aut iure
+          ad amet neque voluptatibus necessitatibus <mark>marcado</mark> nulla?
+        </p>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Caracteres especiales</h2>
+      <ul>
+        <li>&#169; Copyright</li>
+        <li>&#174; Marca registrada</li>
+        <li>&#8482; Trade Mark</li>
+        <li>&#189; Fracción medio</li>
+        <li>&nbsp; Espacio</li>
+      </ul>
+      <!-- https://ascii.cl/es/codigos-html.htm -->
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Listas</h2>
+      <article>
+        <h3>Listas desordenadas:</h3>
+
+        <ul type="circle" reversed>
+          <!-- unordered list -->
+          <li>Lista 1</li>
+          <!-- list item -->
+          <li>Lista 2</li>
+          <li>Lista 3</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Listas ordenadas:</h3>
+
+        <ol type="I" start="2" reversed>
+          <!-- ordered list -->
+          <li>Lista 1</li>
+          <li>Lista 2</li>
+          <li>Lista 3</li>
+        </ol>
+      </article>
+      <article>
+        <h3>Listas de definición:</h3>
+
+        <dl>
+          <!-- definition list -->
+          <dt>
+            <!-- definition term -->
+            Utiles
+          </dt>
+          <dd>
+            <!-- definition definition -->
+            Cuaderno
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            Lapiz
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            Goma
+          </dd>
+          <dt>
+            <!-- definition term -->
+            Alimentos
+          </dt>
+          <dd>
+            <!-- definition definition -->
+            Sandwich
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            Torta
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            Pastel
+          </dd>
+          <dt>
+            <!-- definition term -->
+            Lenguajes de programación
+          </dt>
+          <dd>
+            <!-- definition definition -->
+            JS
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            Java
+          </dd>
+          <dd>
+            <!-- definition definition -->
+            C++
+          </dd>
+        </dl>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Enlaces</h2>
+
+      <article>
+        <h3>Introducción</h3>
+
+        <a href="https://www.academlo.com/" target="_blank" title="Este enlace te lleva a Academlo"
+          rel="noreferrer nofollow">Enlace a
+          Academlo</a>
+      </article>
+
+      <article>
+        <h3>Enlaces a otro documento HTML</h3>
+        <a href="assets/html/documento.html" target="_blank">Enlace a un documento</a>
+        <br>
+        <a href="assets/html/documento.html#resumen" target="_blank">Enlace a una parte de un documento</a>
+      </article>
+
+      <article>
+        <h3>Enlaces a un archivo</h3>
+        <a href="bg.png" target="_blank" download="My_CV">Enlace a una imagen</a>
+        <br>
+        <a href="assets/audio/audio.mp3" target="_blank">Enlace a un archivo de sonido en otras carpeta</a>
+      </article>
+
+      <article>
+        <h3>Enlaces con imágenes</h3>
+
+        <a href="https://blog.ida.cl/wp-content/uploads/sites/5/2020/04/tamano-redes-blog-655x470.png" target="_blank">
+          <img src="https://blog.ida.cl/wp-content/uploads/sites/5/2020/04/tamano-redes-blog-655x470.png" alt="imagen"
+            width="100" height="100">
+        </a>
+      </article>
+
+      <article>
+        <h3>Protocolos en la URL del enlace</h3>
+
+        <!-- El protocolo mailto es un protocolo de correo electrónico. -->
+        <a href="mailto:userexample@dominio.com?subject=Hazme una cotizacion">Enviar email a userexample@dominio.com</a>
+        <br>
+
+        <!-- Whatsapp link protocol -->
+        <a href="https://wa.me/+12345678?text=tu%20Mensaje%20De%20Texto" target="_blank">Enviar mensaje a Whatsapp</a>
+        <br>
+        <a href="whatsapp://send?phone=+123456789" target="_blank">Enviar mensaje a la app de whatsapp</a>
+        <br>
+
+        <!-- Tel link protocol -->
+        <a href="tel:+123456789">Click para llamar</a>
+        <br>
+
+        <!-- Skype link protocol  -->
+        <a href="skype:usuario_skype?call">Llamar a usuario_skype</a>
+        <br>
+
+        <!-- zoommtg link protocol -->
+        <a href="zoommtg://zoom.us/join?confno=123434566">Unirme a la reunión de Zoom</a>
+        <br>
+
+        <!-- slack -->
+        <a href="https://espaciodetrabajo.slack.com/archives/canalid">Únete a nuestro espacio en slack</a>
+        <br>
+
+        <!-- Discord -->
+        <a href="https://discord.gg//codigodeinvitacion">únete a nuestro servidor en Discord</a>
+
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Tablas</h2>
+      <article>
+        <h3>Básica</h3>
+
+        <table border align="center" cellpadding="10" cellspacing="15" bgcolor="808080">
+          <!-- elemento que representa a alas tablas  -->
+          <tr>
+            <!-- elemento que representa a las filas -->
+            <td>Fila 1 Columna 1 Celda 1</td>
+            <!-- elemento que representa una celda de la tabla  -->
+            <td>Fila 1 Columna 2 Celda 2</td>
+            <td>Fila 1 Columna 3 Celda 3</td>
+          </tr>
+          <tr>
+            <!-- elemento que representa a las filas -->
+            <td>Fila 2 Columna 1 Celda 1</td>
+            <!-- elemento que representa una celda de la tabla  -->
+            <td>Fila 2 Columna 2 Celda 2</td>
+            <td>Fila 2 Columna 3 Celda 3</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+
+        <h3>Agregando titulo y cabecera</h3>
+
+        <table border>
+          <caption>
+            <!-- elemento que le da un titulo a mi tabla  -->
+            Mi tabla de Ejemplo
+          </caption>
+          <tr>
+            <th>Columna 1</th>
+            <!-- elemento que representa una columna de la tabla -->
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+          </tr>
+          <tr>
+            <!-- elemento que representa a las filas -->
+            <td>Fila 1 Columna 1 Celda 1</td>
+            <!-- elemento que representa una celda de la tabla  -->
+            <td>Fila 1 Columna 2 Celda 2</td>
+            <td>Fila 1 Columna 3 Celda 3</td>
+          </tr>
+          <tr>
+            <!-- elemento que representa a las filas -->
+            <td>Fila 2 Columna 1 Celda 1</td>
+            <!-- elemento que representa una celda de la tabla  -->
+            <td>Fila 2 Columna 2 Celda 2</td>
+            <td>Fila 2 Columna 3 Celda 3</td>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+
+        <h3>Agrupando Celdas</h3>
+        <table border>
+          <tr>
+            <td colspan="5" align="center">Mis Horarios</td>
+          </tr>
+          <tr>
+            <td colspan="2">Programación</td>
+            <td colspan="2">Algoritmos</td>
+            <td>Total Horas</td>
+          </tr>
+          <tr>
+            <td>Clases</td>
+            <td>Horas</td>
+            <td>Clases</td>
+            <td>Horas</td>
+            <td rowspan="2">15 hrss</td>
+          </tr>
+          <tr>
+            <td>3 clases</td>
+            <td>9 horas</td>
+            <td>2 clases</td>
+            <td>6 horas</td>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+
+        <h3>Grupos de filas</h3>
+
+        <table border>
+          <thead>
+            <tr>
+              <td>Mes</td>
+              <td>Enero</td>
+              <td>Febrero</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Electricidad</td>
+              <td>10</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Internet</td>
+              <td>5</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>15</td>
+              <td>25</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+      <h2>Contenido embebido</h2>
+
+      <article>
+        <h3>Imágenes</h3>
+
+        <img src="assets/img/bg.png" alt="Esta será la descripción detallada de mi imagen" width="100%"
+          title="Esta es una breve descripción de mi imagen">
+
+        <figure>
+          <img src="assets/img/bg.png" alt="Descripción" width="100%" loading="lazy">
+          <figcaption>Descripción o crédito de la imagen</figcaption>
+        </figure>
+
+        <picture>
+          <source media="(min-width: 768px)" srcset="assets/img/cover.jpg">
+          <source media="(max-width: 767px)" srcset="assets/img/bg.png">
+          <img src="assets/img/favicon.pn" alt="Descripción">
+        </picture>
+      </article>
+
+      <article>
+        <h3>Videos</h3>
+
+        <video src="assets/video/video.mp4" width="100%" muted loop controls poster="assets/img/cover.jpg"></video>
+
+        <video constrols width=250 height=200 muted>
+          <source src="assets/video/video.mp4" type="video/mp4">
+          <source src="assets/video/video.webm" type="video/webm">
+          <p>Su navegador no soporta videos HTML5</p>
+        </video>
+      </article>
+
+      <article>
+
+        <h3>Audios</h3>
+
+        <audio controls autoplay muted loop>
+          <source src="assets/audio/audio.mp3" type="audio/mp3">
+          <source src="assets/audio/audio.ogg" type="audio/ogg">
+          <p>Tu navegador no soporta el tag audio</p>
+        </audio>
+      </article>
+
+      <article>
+
+        <h3>Iframes</h3>
+
+        <iframe src="https://www.academlo.com/" width="600" height="400"></iframe>
+
+        <iframe src="assets/html/documento.html" frameborder="0" width="600" height="400"></iframe>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125759.38928838276!2d-84.11334505!3d9.935545650000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e342c50d15c5%3A0xe6746a6a9f11b882!2zU2FuIEpvc8Op!5e0!3m2!1ses!2scr!4v1705631995041!5m2!1ses!2scr"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/16Aw-xz3obw?si=qp8Yqu5-qzJy0sdW"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+
+      <h2>Poderosísimas etiquetas</h2>
+
+      <article>
+
+        <h3>Etiqueta dialog</h3>
+
+        <dialog id="modal">
+          Soy una ventana modal
+          <button id="btn_close">Close Modal</button>
+        </dialog>
+
+        <button id="btn_open">Open Modal</button>
+
+        <script>
+          btn_open.onclick = function () {
+            modal.open = true
+          }
+          btn_close.onclick = function () {
+            modal.open = false
+          }
+        </script>
+      </article>
+
+      <article>
+
+        <h3>Etiqueta details</h3>
+
+        <details open>
+          <summary>Read more</summary>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laborum optio maiores in sit qui totam dolor
+            voluptates ullam. Id, quisquam autem debitis commodi ad quia illo eum facere quibusdam.
+          </p>
+          <img src="bg.png" alt="descripcion" width="500">
+        </details>
+
+        <div>
+          <details name="moreInfo">
+            <summary>Read more</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestiae omnis voluptatibus, dolorem,
+              eveniet officia veniam totam alias eum nobis id quasi dolorum eos at doloremque, animi minus dignissimos
+              error!
+            </p>
+          </details>
+          <details name="moreInfo">
+            <summary>Pikachu</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestiae omnis voluptatibus, dolorem,
+              eveniet officia veniam totam alias eum nobis id quasi dolorum eos at doloremque, animi minus dignissimos
+              error!
+            </p>
+          </details>
+          <details name="moreInfo">
+            <summary>Read more</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestiae omnis voluptatibus, dolorem,
+              eveniet officia veniam totam alias eum nobis id quasi dolorum eos at doloremque, animi minus dignissimos
+              error!
+            </p>
+          </details>
+        </div>
+      </article>
+
+      <article>
+        <h3>Popover</h3>
+        <button popovertarget="myPop">Abrir pop</button>
+        <div popover id="myPop">Soy un popover!!</div>
+      </article>
+
+      <article>
+        <h3>Etiqueta Progress</h3>
+
+        <progress value="50" max="100"></progress>
+        <progress max="100"></progress>
+      </article>
+    </section>
+    <hr>
+    <br>
+    <section>
+
+      <h2>Formularios</h2>
+
+      <form action="https://httpbin.org/get" method="get" name="primer_formulario" autocomplete="on" target="_blank">
+
+        <fieldset>
+          <legend>Formulario de Contacto</legend>
+
+          <label for="nombre">Nombre:</label>
+          <!-- tipo text  -->
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" autofocus spellcheck="true"
+            required tabindex="1s">
+          <br><br>
+          <!-- tipo email  -->
+          <label for="email">Correo:</label>
+          <input type="email" name="correo" id="email" placeholder="Escribe tu correo" tabindex="3"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <br><br>
+          <!-- tipo tel  -->
+          <label for="tel">Teléfono:</label>
+          <input type="tel" name="telefono" id="tel" placeholder="123-456-7890" tabindex="2"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+          <br><br>
+          <!-- tipo country -->
+          <label for="">País:</label>
+          <input type="text" name="pais" id="country" placeholder="Selecciona tu país" tabindex="4" list="latam">
+          <datalist id="latam">
+            <option value="México"></option>
+            <option value="Colombia"></option>
+            <option value="Ecuador"></option>
+            <option value="Perú"></option>
+            <option value="Argentina"></option>
+            <option value="Costa Rica"></option>
+            <option value="Venezuela"></option>
+            <option value="Chile"></option>
+            <option value="Uruguay"></option>
+            <option value="Bolivia"></option>
+            <option value="Brásil"></option>
+            <option value="Honduras"></option>
+            <option value="Paraguay"></option>
+            <option value="Guatemala"></option>
+          </datalist>
+        </fieldset>
+
+        <fieldset>
+          <legend>¿Necesitas Asesorias?</legend>
+          <!-- tipo radio -->
+          <label for="yes">Sí</label>
+          <input type="radio" name="asesoria" id="yes">
+          <label for="no">No</label>
+          <input type="radio" name="asesoria" id="no">
+        </fieldset>
+
+        <fieldset>
+          <legend>¿De qué quieres hablar?</legend>
+
+          <!-- tipo select  -->
+          <label for="select">Selecciona el tema</label>
+          <select name="tema" id="select">
+            <optgroup label="Desarrollo Web">
+              <option value="front">Frontend</option>
+              <option value="back">Bsckend</option>
+              <option value="full">FullStack</option>
+            </optgroup>
+            <optgroup label="Desarrollo Móvil">
+              <option value="android" selected>Android</option>
+              <option value="ios">IOS</option>
+            </optgroup>
+          </select>
+          <br><br>
+          <!-- tipo checkbox  -->
+          <label for="html">HTML5</label>
+          <input type="checkbox" name="estrutura" id="html">
+          <label for="css">CSS</label>
+          <input type="checkbox" name="estilado" id="css">
+          <label for="js">JS</label>
+          <input type="checkbox" name="dinamismo" id="js">
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Mensaje</legend>
+
+          <!-- tipo textarea  -->
+
+          <label for="msj">Cuéntame Más</label>
+          <br>
+          <textarea name="message" id="msj" cols="50" rows="10"
+            placeholder="¿Qué debo saber para ayudarte mejor?"></textarea>
+          <br><br>
+          <!-- tipo file  -->
+          <label for="file">Cargar archivo</label>
+          <input type="file" name="archivos" id="file" accept=".jpg, .jpeg, .png" multiple>
+          <br>
+          <!-- Nuevos inputs file  -->
+          <label for="img">Sube tu foto</label>
+          <input type="file" name="image" accept="image/*" id="img" capture="user">
+          <br>
+          <label for="video">Sube tu video</label>
+          <input type="file" name="film" id="video" accept="video/*" capture="environment">
+          <br><br>
+          <!-- tipo password  -->
+          <label for="password">Contraseña:</label>
+          <input type="password" name="pass" id="password">
+
+          <!-- tipo color  -->
+          <input type="color" name="" id="">
+
+          <!-- tipo date  -->
+          <input type="date" name="" id="">
+
+          <!-- tipo datetime -->
+          <input type="datetime-local" name="" id="">
+
+        </fieldset>
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </section>
+    <hr>
+    <br>
+    <aside>
+      <!-- Aside: Contiene elementos que no son necesarios en la mayoría de las páginas pero que pueden ser útiles, suelen dejarse para espacios publicitarios -->
+      <h2>Recursos</h2>
+      <ul>
+        <li>
+          <a href="https://htmlreference.io/" target="_blank">htmlreference.io</a>
+        </li>
+        <li>
+          <a href="https://www.iloveimg.com/es" target="_blank">Iloveimg</a>
+        </li>
+        <li>
+          <a href="https://unsplash.com/es" target="_blank">Unsplash</a>
+        </li>
+        <li>
+          <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+        </li>
+      </ul>
+    </aside>
+  </main>
+
+  <hr>
+  <footer>
+    <!-- Footer: Pie de página -->
+    <h2>Pie de página</h2>
+    <p><small>es el pie de página</small></p>
+    <nav>Se puede colocar también un nav</nav>
+  </footer>
+</body>
+
+</html>
